@@ -1,8 +1,46 @@
 body {
     background-color: bisque;
     text-align: center;
+    font-family: monospace;
 }
 
-h1, li {
+h1 {
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ol {
+    text-align: justify;
+    padding: 3rem;
+}
+
+li {
+    padding: auto;
+}
+
+img {
+    border: 0.2rem;
+    border-color: black;
+    border-style: outset;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-back {
+    width: 150px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+    padding: auto;
+    align-self: center;
 }
